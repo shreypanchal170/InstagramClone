@@ -1,0 +1,2 @@
+<script type="text/javascript" src="<?php echo $base_url;?>market/<?php echo $marketTheme;?>/js/<?php echo $marketTheme;?>.js"></script>
+<script type="text/javascript" src="<?php echo $base_url;?>market/<?php echo $marketTheme;?>/js/swiper/swiper.min.js"></script>

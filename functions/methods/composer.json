@@ -1,0 +1,21 @@
+{
+    "name": "livelyworks/oobenn∂”,
+    "require": {
+        "wixel/gump" : "1.5.7",
+        "instamojo/instamojo-php": "^0.3.0",
+        "yabacon/paystack-php": "^2.1",
+        "razorpay/razorpay": "~2.3.0",
+        "iyzico/iyzipay-php": "~2.0.43",
+        "stripe/stripe-php": "7.2.2",
+        "authorizenet/authorizenet": "1.9.9",
+        "bitpay/php-client": "~2.2.20"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "livelyworks/app/"
+        },
+        "files": [
+            "livelyworks/app/Support/app-helpers.php"
+        ]
+    }
+}

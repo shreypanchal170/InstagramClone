@@ -1,0 +1,9 @@
+<div class="watermark_container" id="_<?php echo $WaterMarkID;?>" data-last="<?php echo $WaterMarkID;?>">
+     <div class="watermark_wrap">
+           <div class="deleteWatermark" id="<?php echo $WaterMarkID;?>"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 192 192" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g id="Layer_1"><g><path d="M96,184.8c-48.9648,0 -88.8,-39.8352 -88.8,-88.8c0,-48.9648 39.8352,-88.8 88.8,-88.8c48.9648,0 88.8,39.8352 88.8,88.8c0,48.9648 -39.8352,88.8 -88.8,88.8z" fill="#cccccc"></path><path d="M96,9.6c47.64,0 86.4,38.76 86.4,86.4c0,47.64 -38.76,86.4 -86.4,86.4c-47.64,0 -86.4,-38.76 -86.4,-86.4c0,-47.64 38.76,-86.4 86.4,-86.4M96,4.8c-50.3664,0 -91.2,40.8336 -91.2,91.2c0,50.3664 40.8336,91.2 91.2,91.2c50.3664,0 91.2,-40.8336 91.2,-91.2c0,-50.3664 -40.8336,-91.2 -91.2,-91.2z" fill="#666666"></path></g><rect x="-29.78475" y="-10.00021" transform="rotate(-135) scale(4.79995,4.79995)" width="3" height="20" fill="#ffffff"></rect><rect x="-1.50021" y="18.28433" transform="rotate(-45) scale(4.79995,4.79995)" width="3" height="20" fill="#ffffff"></rect></g></g></svg></div>
+          <div class="watermark-item-box" style="background-image: url(<?php echo $WaterMark_Image ;?>);">
+            <img src="<?php echo $WaterMark_Image ;?>" class="watermark-item-img"> 
+         </div>
+         
+     </div>
+</div>

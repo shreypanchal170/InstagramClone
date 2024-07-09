@@ -1,0 +1,262 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <title>Untitled Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Varela+Round" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/aos.js"></script>
+  <script type="text/javascript" src="js/passhelp.js"></script> 
+  <script type="text/javascript" src="js/oobenn.js"></script> 
+  <script type="text/javascript" src="js/oobennForm.js"></script>
+</head>
+
+<body>
+  <!--Login STARTED-->
+  <div class="loginBg">
+      <div class="closeReg oplf"></div>
+       <div class="oobenn_form_controller_wrapper">
+            <div class="oobenn_form_in">
+                <div class="form__wrapper">
+                   <div class="input script_name">oobenn</div>
+                   <form  class="login-form" enctype="multipart/form-data" method="post" id='loginform'>
+                      <div class="input">
+                        <input type="text" class="field" name="login_username" id="username" placeholder="Username"/><span class="awsome_input_border"></span>
+                      </div> 
+                      <div class="input">
+                        <input type="password" class="field" name="login_password" id="password" placeholder="Password"/><span class="awsome_input_border"></span>
+                      </div> 
+                      <div class="input inte">
+                        <a href="privacy-policies" class="_m4qul">Forgot password ?</a>
+                      </div>
+                      <div class="input">
+                         <button type="submit" name="submit" class="submit_btn snd" id='login_submit'>Register</button>
+                      </div>
+                   </form>
+                </div>
+            </div>
+       </div>
+  </div>
+  <!--Login FINISHED-->
+  <!--Register Background Color STARTED-->
+  <div class="registerBg">
+       <div class="closeReg opcl"></div>
+       <div class="oobenn_form_controller_wrapper">
+            <div class="oobenn_form_in">
+                <div class="form__wrapper">
+                   <div class="input script_name">oobenn</div>
+                   <form class="register-form" method="POST" id='registerform'>
+                      <div class="input" id="e_uname">
+                        <input type="text" class="field" name="reusername" id="register_username" placeholder="Username"/><span class="awsome_input_border"></span>
+                      </div>
+                      <div class="unot">This username already exists. Please try another username.</div>  
+                      <div class="input">
+                        <input type="text" class="field" name="fullname" id="reg_fullname" placeholder="Full Name"/><span class="awsome_input_border"></span>
+                      </div>
+                      <div class="input" id="e_email">
+                        <input type="text" class="field" name="regemail" id="reg_email" placeholder="E-Mail"/><span class="awsome_input_border"></span>
+                      </div>
+                      <div class="input">
+                        <input type="password" class="field form-control" name="fullname" id="reg_password" placeholder="Password"/><span class="awsome_input_border"></span>
+                      </div>
+                      <div class="input">
+                         <div class="bd">
+                             <div class="bdt">Birth Day</div>
+                             <div class="bdtsel">
+                                <select name="birth_day" id="subscription_day">
+                                    <option value="">Day</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                </select>
+                             </div>
+                         </div> 
+                         <div class="bd">
+                             <div class="bdt">Birth Month</div>
+                             <div class="bdtsel">
+                                <select name="birth_day" id="subscription_day">
+                                    <option value="">Month</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                </select>
+                             </div>
+                         </div> 
+                         <div class="bd">
+                             <div class="bdt">Birth Year</div>
+                             <div class="bdtsel">
+                                <select name="birth_day" id="subscription_day">
+                                    <option value="">Year</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                </select>
+                             </div>
+                         </div> 
+                      </div>
+                      <div class="input">
+                          <div class="on_off"  id="gender">
+                                <span>
+                                      <input type="radio" name="gender" id="male" value="male">
+                                      <label for="male" id="male">Male</label>
+                                </span> 
+                                <span class="lf">
+                                      <input type="radio"  name="gender" id="female" value="female">
+                                      <label for="female" id="female">Female</label>
+                                  </span>
+                          </div>
+                      </div>
+                      <div class="input inte">
+                        By signing up, you agree to our  <a href="privacy-policies" class="_m4qul">Terms &amp; Privacy Policy</a>
+                      </div>
+                      <div class="input">
+                         <button id="register" class="submit_btn snd" type="submit">Register</button>
+                      </div>
+                   </form>
+                </div>
+            </div>
+       </div>
+  </div> 
+  <!--Register Background Color FINISHED-->
+  <div class="full">
+  <!--Backgrodun Round ANIMATION STARTED-->
+  <div class="bg" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="900"><img src="css/bg/bg.svg" alt="Background Image" /></div>
+  <!--Backgrodun Round ANIMATION FINISHED-->
+  <!--Header STARTED-->
+  <div class="oobenn-header-container" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600">
+    <div class="oobenn-header-container-in">
+      <!--Logo STARTED-->
+      <div class="oobenn-logo" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="700">oobenn</div>
+      <!--Logo FINISHED-->
+      <!--Login AND Register Buttons STARTED-->
+      <div class="oobenn-login-register-buttons">
+        <div class="lrb" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="800">
+          <div class="oobenn-login-button LightDarkGreen oplf">Login</div>
+        </div>
+        <div class="lrb" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="900">
+          <div class="oobenn-register-button LightDarkRed opcl">Register</div>
+        </div>
+      </div>
+      <!--Login AND Register Buttons FINISHED-->
+    </div>
+  </div>
+  <!--Header FINISHED-->
+  <!--Middle STARTED-->
+  <div class="oobenn-middle-container">
+    <div class="oobenn-middle-in">
+      <div class="playVideo">
+           <div class="playVideoBeat popif"></div>
+      </div>
+      <div class="oobenn-title">Come for what you love. Stay for what you discover.</div>
+      <div class="oobenn-title-description">Meet new people, advertise and grow your business. Chat with your friends, share videos, images, audios, files, links and in short, do whatever you want.</div>
+      <!--Middle Image and Video Button STARTED-->
+      <div class="oobenn-images-videoBtn">
+        <div class="oobenn-image"><img src="images/2.png" /></div>
+        <div class="oobenn-image"><img src="images/1.png" /></div>
+        <div class="oobenn-image"><img src="images/3.png" /></div>
+      </div>
+      <!--Middle Imag and Video Button FINISHED-->
+    </div>
+  </div>
+  <!--Middle FINISHED-->
+  <!--Some Feature LIST STARTED-->
+  <div class="oobenn-features-container">
+      <div class="oobenn-feature-list-title">With oobenn you can use the following features.</div>
+      <div class="oobenn-features-list">
+           <!--ITEM STARTED--> 
+                 <div class="oobenn-feature-box oobenn-feature-chat" data-avatar="chat" data-titl="Chat" data-description="The chat feature will allow people to stay in touch with each other and is a feature that will enable you to sail to new friendships. <br><br> Share videos, pictures, files with your friends. <br><br>If you're curious, let's just say yes, this is a real-time chat system." data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="300"></div> 
+           <!--ITEM FINISHED-->
+           <!--ITEM STARTED--> 
+                 <div class="oobenn-feature-box oobenn-feature-money" data-avatar="money" data-titl="Money" data-description="Grow your business, do your promotions. Share your products faster than you earn money. This is not only a social networking site but also a business site." data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500"></div> 
+           <!--ITEM FINISHED-->
+           <!--ITEM STARTED--> 
+                 <div class="oobenn-feature-box oobenn-feature-ads" data-avatar="ads" data-titl="Advertisement" data-description="Let's say you have a product and you want to sell this product to grow your business. The first thing that comes to mind will be to advertise. That's the right step.<br><br> You need advertising to appeal to more audiences, you need advertising to make more sales. So you can grow your business and earn more money." data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="700"></div> 
+           <!--ITEM FINISHED-->
+           <!--ITEM STARTED--> 
+                 <div class="oobenn-feature-box oobenn-feature-music" data-avatar="music" data-titl="Music" data-description="The most wanted feature of a music producer is with you. Yes there are sites that are much more comprehensive and have good features. But remember that we continue to grow." data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="900"></div> 
+           <!--ITEM FINISHED-->
+           <!--ITEM STARTED--> 
+                 <div class="oobenn-feature-box oobenn-feature-stories" data-avatar="stories" data-titl="Stories" data-description="One of the features we're proud of. Status sharing feature with you. Share your changes with your friends in your daily life. View who and how many people have viewed. Don't worry, only you can see who's viewing it. You know more than I already do not need to explain how it's functioning." data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1200"></div> 
+           <!--ITEM FINISHED-->
+           <!--ITEM STARTED--> 
+                 <div class="oobenn-feature-box oobenn-feature-edprof" data-avatar="edprof" data-titl="Customize Your Profile" data-description="Customize your own profile. You can change the background color, change icon colors, change fonts, customize the profile as you wish. Let's see who will do the best profile customization. ;)" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1500"></div> 
+           <!--ITEM FINISHED-->
+           <!--ITEM STARTED--> 
+                 <div class="oobenn-feature-box oobenn-feature-aa" data-avatar="aa" data-titl="Share Text" data-description="We are not columnists, but we believe that there are people who can write very well. This feature is for everyone, but most of all for people who love writing. The important thing is to change the world with the power of words." data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1700"></div> 
+           <!--ITEM FINISHED-->
+           <!--ITEM STARTED--> 
+                 <div class="oobenn-feature-box oobenn-feature-pic" data-avatar="pic" data-titl="Share Images" data-description="You can immortalize changes in your life with friends, family and all your loved ones. The photo sharing feature is there for that. Immortalize every moment in your life. " data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1900"></div> 
+           <!--ITEM FINISHED-->
+           <!--ITEM STARTED--> 
+                 <div class="oobenn-feature-box oobenn-feature-filter" data-avatar="filter" data-titl="Share Filtered Images" data-description="Filter your photos. Make pictures with a better image. Share this with your fans." data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="2100"></div> 
+           <!--ITEM FINISHED-->
+           <!--ITEM STARTED--> 
+                 <div class="oobenn-feature-box oobenn-feature-exp" data-avatar="exp" data-titl="Explore posts" data-description="You can see not only the sharing of your friends but also what is going on in the world. This is where you can see what's happening in the world. Most rated, funny, articles, videos, links, and more .." data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="2300"></div> 
+           <!--ITEM FINISHED-->
+           <!--ITEM STARTED--> 
+                 <div class="oobenn-feature-box oobenn-feature-friend" data-avatar="friend" data-titl="Make a New Friends" data-description="Follow people, make more friends. Expand your environment and create your own fan group." data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="2500"></div> 
+           <!--ITEM FINISHED-->
+           <!--ITEM STARTED--> 
+                 <div class="oobenn-feature-box oobenn-feature-vid" data-avatar="vid" data-titl="Share your Video" data-description="Share videos, please note that your videos will display the entire world. If you upload beautiful video, so be careful how you can win so many followers." data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="2800"></div> 
+           <!--ITEM FINISHED-->
+           <!--ITEM STARTED--> 
+                 <div class="oobenn-feature-box oobenn-feature-link" data-avatar="link" data-titl="Share Link" data-description="Share links on your favorite websites. News, news magazine, where you can share links and more important developments located in the world press." data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="3000"></div> 
+           <!--ITEM FINISHED-->
+           <!--ITEM STARTED--> 
+                 <div class="oobenn-feature-box oobenn-feature-bgc" data-avatar="bgc" data-titl="Profile Background Image" data-description="Your profile is not limited to cover photo and profile photo. You can also add a background image to your profile. The more beautiful the profile appears, the better the number of followers. " data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="3200"></div> 
+           <!--ITEM FINISHED-->
+           <!--ITEM STARTED--> 
+                 <div class="oobenn-feature-box oobenn-feature-custom" data-avatar="custom" data-titl="Change Colors" data-description="Play with your profile. Identify the best color that reflects you, and now you have your own profile." data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="3500"></div> 
+           <!--ITEM FINISHED-->
+           <!--ITEM STARTED--> 
+                 <div class="oobenn-feature-box oobenn-feature-audio" data-avatar="audio" data-titl="Add Profile Background Sound" data-description="To listen to your favorite music to people who visit your profile." data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="3700"></div> 
+           <!--ITEM FINISHED-->
+      </div>
+      
+  <canvas id="canvas"></canvas>
+  </div>
+  <!--Some Feature LIST FINISHED-->
+  <!--PopUP Video Iframe STARTED-->
+  <div class="wmBox_overlay">
+  <div class="wmBox_centerWrap">
+    <div class="wmBox_centerer">
+      <div class="wmBox_contentWrap">
+        <div class="wmBox_scaleWrap">
+          <div class="wmBox_closeBtn popif"></div>
+          <iframe id="playerID" src="https://www.youtube.com/embed/yj2wVdCaUwA"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!--PopUP Video Iframe FINISHED--> 
+  <!--Footer STARTED-->
+  <div class="oobenn-footer-container">
+      <div class="oobenn-footer">
+           <a href="#">About Us</a>
+           <a href="#">Privacy Policies</a> 
+      </div>
+  </div>
+  <!--Footer FINISHED--> 
+  </div>
+  <script type="text/javascript"> 
+    AOS.init();
+  </script>
+</body>
+
+</html>
